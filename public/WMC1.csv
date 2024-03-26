@@ -1,0 +1,52 @@
+﻿id,Equipment Type,Year,Make,Model,Equipment #,Status,Quantity, FMV ,PLANT ,Insured Schedule
+1,Forklift,2023,Yale 155,GP155VX ,NA,Leased (buy out),1,128360,PA,WMC Holdings
+2,Forklift,2023,Yale 155,GP155VX ,NA,Leased (buy out),1,128360,PA,WMC Holdings
+3,Forklift,2023,Komatsu,FH50-2,142266,Leased,1,125000,CR,WMC Holdings
+4,Forklift,2023,Hyster,H155FT-LPG,P006V01927W,Leased,1,120000,IL,WMC Holdings
+5,Forklift,2023,Heli,CPYD50-KUTG3,230502T5815,Leased,1,102000,CR,WMC Holdings
+6,Forklift,2023,Hyster,H100FT ,U005V16758X,Leased,1,81500,CA,WMC Holdings
+7,Forklift,2023,Hyster,H100FT ,U005V15791X,Leased,1,61609,IL,WMC Holdings
+8,Forklift,2023,Doosan,G45S-7,FGB0T-3460-00950,Leased,1,55575,FL,WMC Holdings
+9,Forklift,2023,Doosan ,G30E-7,FGA1N-1290-0123,Leased,1,33376,FL,WMC Holdings
+10,Forklift,2023,Toyota,50-8FGU32,508FGU32-13377,Leased,1,28472,CR,WMC Holdings
+11,Forklift,2022,Hyster,H155FT ,P006V01927W,Leased,1,98584,IL,WMC Holdings
+12,Forklift,2022,CPCD70-CU7G -Heli,010702R0889,010702R0889,Leased,1,94684,BW,WMC Holdings
+13,Forklift,2021,Taylor,GT-155,XGT1318D-0349-10034KF,Rented,1,102200,BW,WMC Holdings
+14,Forklift,2021,Taylor GT-155,GT-155,46523,Leased,1,96469,PA,WMC Holdings
+15,Forklift,2021,Hyster,H100FT ,U005V12785V,Leased,1,81500,CA,WMC Holdings
+16,Forklift,2021,Yale,GLP100VXNKBE092,K813V06933V,Leased,1,49990,FL,WMC Holdings
+17,Forklift,2020,Taylor,GT-155,45385,Rent,1,102200,BW,WMC Holdings
+18,Forklift,2020,Hyster,H115FT-DSL,L006V03741U,Leased,1,97794,PA,WMC Holdings
+19,Forklift,2020,Toyota,8FD70U ,20070,Leased,1,83274,CA,WMC Holdings
+20,Forklift,2020,Hyster,H100FT-DSL,U005V11350U,Leased,1,57732,PA,WMC Holdings
+21,Forklift,2020,Taylor,GT-120,45337,Leased,1,54072,TX,WMC Holdings
+22,Forklift,2020,Hyundai,50L-7A,HHKHHL07CK0000410,Leased,1,41940,TX,WMC Holdings
+23,Forklift,2019,Hyundai,40L-7A,HHKHHL05TJJ0000295,Owned,1,120129,CR,WMC Holdings
+24,Forklift,2018,Hyster100,H100FT-LPG,U005V09004T,Leased,1,39200,PA,WMC Holdings
+25,Forklift,2017,Clark,C50S,P455L-0743-9887,Leased,1,48037,SC,WMC Holdings
+26,Forklift,2016,Hyster,H80FT,R005V01959K,Owned,1,35000,CR,WMC Holdings
+27,Forklift,2016,Hyster,H80FT,R005V01963K,Owned,1,35000,CR,WMC Holdings
+28,Forklift,2016,Hyster,H80FT,R005V01962K,Owned,1,35000,CR,WMC Holdings
+29,Forklift,2016,Hyster,H80FT,R005V01964K,Owned,1,35000,CR,WMC Holdings
+30,Forklift,2016,Nissan,UG102H30PV,9L1882,Owned,1,35000,CR,WMC Holdings
+31,Forklift,2016,Nissan,PJ02A25PV,PJ02-9H1498,Owned,1,35000,CR,WMC Holdings
+32,Forklift,2016,Hyster,H90FT,R005V01959K,Owned,1,35000,CR,WMC Holdings
+33,Forklift,2015,Yale 155,GDP155VXNTVV126,F878V020121N,Owned,1,63450,PA,WMC Holdings
+34,Forklift,2015,Yale 150,GLP155VXNEBE123,F878V01875R,Leased,1,38000,PA,WMC Holdings
+35,Forklift,2015,Yale 100 ,GP100VX ,K813V03733R,Leased,1,37000,PA,WMC Holdings
+36,Forklift,2015,Hyundai,70D-7E,HFZ11KE0002315,Owned,1,35000,CR,WMC Holdings
+37,Forklift,2015,Hyster,H280HD2,J007E01673J,Owned,1,35000,CR,WMC Holdings
+38,Forklift,2014,Tennant,S20 ,S20,Owned,1,34142,TX,WMC Holdings
+39,Forklift,2014,Hyster 50FT,H50FT,N177V01802M,Rented,1,34000,PA,WMC Holdings
+40,Forklift,2014,carterpiliar,AT28B70249,AT28B70249,Owned,1,24078,BW,WMC Holdings
+41,Forklift,2014,Tennant,E879124  (Sweeper),6600-25757,Leased,1,22000,FL,WMC Holdings
+42,Forklift,2013,JLG Boomlift,660SJ (usado),300180441,Leased,1,42800,IL,WMC Holdings
+43,Forklift,2013,Nissan 60,MUG1F2A3LV,UG1F2-9L1557,Leased,1,35000,PA,WMC Holdings
+44,Forklift,2003,Hyster,H120XM,K005V04618A,Owned,1,30000,BW,WMC Holdings
+45,Forklift,2023,Hyster,H60FT - LPG,P177V20492X,Leased,1,39014,FL,Wire Mesh Sales LLC
+46,Forklift,2022,Hyster 4-Wheel,H155FT,P005V01927W,Leased,1,81121,FL,Wire Mesh Sales LLC
+47,Forklift,2022,SSIP-120,SSIP-120,A21140,Leased,1,15917,FL,Wire Mesh Sales LLC
+48,Forklift,2022,Cascade,7522099,4138504,Leased,1,4107,FL,Wire Mesh Sales LLC
+49,Forklift,2021,Yale,GP155VX - LPG,F878V02410V,Leased,1,47609,FL,Wire Mesh Sales LLC
+50,Forklift,2021,Yale,GP100VX - LPG,K813V06933V,Leased,1,27523,FL,Wire Mesh Sales LLC
+51,Forklift,2021,H60FT - LPG,H60FT - LPG,P177V16688V,Leased,1,6973,FL,Wire Mesh Sales LLC

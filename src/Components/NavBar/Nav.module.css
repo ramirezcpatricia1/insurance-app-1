@@ -1,0 +1,4 @@
+.Container {
+  display: inline-flex;
+  gap: 100px;
+}

@@ -1,0 +1,22 @@
+body {
+  background-color: #070532;
+  color: antiquewhite;
+}
+
+label {
+  display: block;
+}
+input {
+  display: inline;
+  width: 80%;
+  -webkit-text-fill-color: black;
+}
+select {
+  width: 80%;
+  color: black;
+}
+p {
+  display: inline-block;
+  color: #c51818;
+  font-size: x-small;
+}
