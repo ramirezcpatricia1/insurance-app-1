@@ -182,7 +182,7 @@ const Exits = () => {
                   {...register("financialCompany", { required: true })}
                 ></input>
                 {errors.financialCompany?.type === "required" && (
-                  <p> The field provider is required</p>
+                  <p> The field financial Company is required</p>
                 )}
                 <label>Provide the leasing Contract number</label>
                 <input
@@ -192,6 +192,8 @@ const Exits = () => {
                 {errors.financialCompany?.type === "required" && (
                   <p> The field Leasing Contract Number is required</p>
                 )}
+                <label htmlFor="file ">Please, attach the contract</label>
+                <input type="file"></input>
               </div>
             )}
 
@@ -225,19 +227,9 @@ const Exits = () => {
                 {errors.nameProvider?.type === "required" && (
                   <p> The field PR cost center name is required</p>
                 )}
+                <label htmlFor="file ">Please, attach the contract</label>
+                <input type="file"></input>
               </div>
-            )}
-
-            <label htmlFor="file ">Please, attach the contract</label>
-            <input type="file"></input>
-
-            <label>Provide the name of the provider</label>
-            <input
-              type="text"
-              {...register("provider", { required: true })}
-            ></input>
-            {errors.provider?.type === "required" && (
-              <p> The field provider is required</p>
             )}
 
             <label>Please provide your Id</label>
