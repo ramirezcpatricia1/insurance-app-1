@@ -22,7 +22,7 @@ const Exits = () => {
   return (
     <>
       <Layout>
-        <form onSubmit={onSubmit}>
+        <form onSubmit={onSubmit} className="ml-20 relative">
           <h1 className="h-10 text-center">
             {" "}
             Exits "Equipment Outbound Form"{" "}
@@ -102,7 +102,10 @@ const Exits = () => {
             )}
 
             <label>Plant</label>
-            <select {...register("Plant", { required: true })}>
+            <select
+              {...register("Plant", { required: true })}
+              className="text-black"
+            >
               <option value=""></option>
               <option value="OPT">OPT</option>
               <option value="PA">PA</option>
@@ -119,7 +122,10 @@ const Exits = () => {
             )}
 
             <label>Insured Schedule </label>
-            <select {...register("InsuredSchedule", { required: true })}>
+            <select
+              {...register("InsuredSchedule", { required: true })}
+              className="text-black"
+            >
               <option value=""></option>
               <option value="Optimus">Optimus</option>
               <option value="WMC">WMC</option>
@@ -130,7 +136,10 @@ const Exits = () => {
             )}
 
             <label>Status</label>
-            <select {...register("status", { required: true })}>
+            <select
+              {...register("status", { required: true })}
+              className="text-black"
+            >
               <option value=""></option>
               <option value="Leased">Leased</option>
               <option value="Owned">Owned</option>
@@ -142,24 +151,94 @@ const Exits = () => {
             {watch("status") === "Leased" && (
               <div>
                 <label>Leased Start Date</label>
-                <input type="date" {...register("leasedStartDate")}></input>
-
+                <input
+                  type="date"
+                  {...register("leasedStartDate", { required: true })}
+                ></input>
+                {errors.leasedStartDate?.type === "required" && (
+                  <p> The field leased start date is required</p>
+                )}
                 <label>Leased End Date</label>
-                <input type="date" {...register("leasedEndDate")}></input>
+                <input
+                  type="date"
+                  {...register("leasedEndDate", { required: true })}
+                ></input>
+                {errors.leasedEndDate?.type === "required" && (
+                  <p> The field leased End Date is required</p>
+                )}
+
+                <label>Please, provide the name of the provider</label>
+                <input
+                  type="date"
+                  {...register("nameProvider", { required: true })}
+                ></input>
+
+                {errors.nameProvider?.type === "required" && (
+                  <p> The field name of provider is required</p>
+                )}
+                <label>Provide the name of the financial company</label>
+                <input
+                  type="text"
+                  {...register("financialCompany", { required: true })}
+                ></input>
+                {errors.financialCompany?.type === "required" && (
+                  <p> The field provider is required</p>
+                )}
+                <label>Provide the leasing Contract number</label>
+                <input
+                  type="text"
+                  {...register("leasingContractNumber", { required: true })}
+                ></input>
+                {errors.financialCompany?.type === "required" && (
+                  <p> The field Leasing Contract Number is required</p>
+                )}
               </div>
             )}
 
             {watch("status") === "Rented" && (
               <div>
                 <label>Rented Start Date</label>
-                <input type="date" {...register("rentedStartDate")}></input>
+                <input
+                  type="date"
+                  {...register("rentedStartDate", { required: true })}
+                ></input>
                 <label>Rented End Date</label>
-                <input type="date" {...register("rentedEndDate")}></input>
+                <input
+                  type="date"
+                  {...register("rentedEndDate", { required: true })}
+                ></input>
+                <label>Please, provide the name of the provider</label>
+                <input
+                  type="date"
+                  {...register("nameProvider", { required: true })}
+                ></input>
+
+                {errors.nameProvider?.type === "required" && (
+                  <p> The field name of provider is required</p>
+                )}
+                <label>Please, provide the PR cost Center Name</label>
+                <input
+                  type="text"
+                  {...register("costCenterName", { required: true })}
+                ></input>
+
+                {errors.nameProvider?.type === "required" && (
+                  <p> The field PR cost center name is required</p>
+                )}
               </div>
             )}
 
             <label htmlFor="file ">Please, attach the contract</label>
             <input type="file"></input>
+
+            <label>Provide the name of the provider</label>
+            <input
+              type="text"
+              {...register("provider", { required: true })}
+            ></input>
+            {errors.provider?.type === "required" && (
+              <p> The field provider is required</p>
+            )}
 
             <label>Please provide your Id</label>
             <input type="text" {...register("Id", { required: true })}></input>
@@ -187,11 +266,9 @@ const Exits = () => {
               <option value="Yes">Yes</option>
               <option value="No">No</option>
             </select>
-
-            <Button type="submit" value="Send" className="h-10 text-center">
-              Send
-            </Button>
           </div>
+
+          <Button />
         </form>
       </Layout>
     </>

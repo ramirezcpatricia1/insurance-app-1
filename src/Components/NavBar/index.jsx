@@ -14,7 +14,13 @@ const Navbar = () => {
         <li>
           <NavLink to="/">Frequently Asked Questions (FAQs)</NavLink>
         </li>
-        <li>🎗</li>
+        <li className={styles.logo}>
+          <img
+            src="./assets/logo-home.png"
+            alt="logo WMC"
+            className={styles.image}
+          />
+        </li>
       </ul>
     </nav>
   );

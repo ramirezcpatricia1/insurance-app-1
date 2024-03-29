@@ -1,4 +1,18 @@
 .Container {
   display: inline-flex;
-  gap: 100px;
+  gap: 30px;
+  align-items: center;
+  margin-left: 50px;
+}
+
+.image {
+  width: 70%;
+  height: fit-content;
+  aspect-ratio: 16px 9px;
+}
+
+.logo {
+  aspect-ratio: 16px 9px;
+  text-align: -webkit-right;
+  margin-right: 50px;
 }

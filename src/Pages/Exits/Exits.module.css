@@ -1,8 +1,6 @@
 body {
   background-color: #070532;
-  color: antiquewhite;
 }
-
 label {
   display: block;
 }
@@ -10,13 +8,28 @@ input {
   display: inline;
   width: 80%;
   -webkit-text-fill-color: black;
+  color: black;
 }
+
 select {
   width: 80%;
   color: black;
+  -webkit-text-fill-color: black;
+  accent-color: black;
+  display: flex;
 }
+select::after {
+  content-visibility: visible;
+  color: #374151;
+  transform: translateY(-50%);
+}
+option {
+  color: black;
+  -webkit-text-fill-color: black;
+}
+
 p {
-  display: inline-block;
+  display: flex;
   color: #c51818;
   font-size: x-small;
 }

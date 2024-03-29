@@ -9,6 +9,7 @@
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+  aspect: radio 16px 9px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -16,7 +17,9 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
+body {
+  color: antiquewhite;
+}
 .App-header {
   background-color: #070532;
   min-height: 100vh;

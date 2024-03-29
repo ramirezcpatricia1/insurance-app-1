@@ -1,4 +1,40 @@
-img {
-  width: 50px; /* Ajusta el ancho de la imagen según sea necesario */
-  height: auto; /* Mantén la proporción de la imagen */
+.figure {
+  border: 2px solid silver;
+  border-radius: 8px;
+  padding: 10px;
+  top: 10px;
+  width: 250px;
+  height: 250px;
+  background: linear-gradient(45deg, black, transparent, #1757b8);
+  border-radius: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+  border: 5px solid rgba(255, 255, 255, 0.2);
+  display: flexbox;
+}
+
+.span {
+  display: block;
+  text-align: center;
+  white-space: nowrap;
+  font-weight: 100;
+}
+.image {
+  width: 130px;
+  height: 130px;
+  margin-top: 15px;
+  margin-inline: auto;
+  border-radius: 8px;
+  aspect: ratio 16px / 9px;
+}
+
+.linked {
+  border: 2px solid silver;
+  border-radius: 8px;
+  padding: 5px;
+  margin-top: 25px;
+  text-align: center;
+  width: 130px;
+  text-align: center;
+  margin: 10px 45px 0;
+  font-weight: 100;
 }

@@ -1,0 +1,11 @@
+.button {
+  border: 2px solid silver;
+  border-radius: 8px;
+  text-align: center;
+  width: 130px;
+  margin: 10px 45px 0;
+  font-weight: 100;
+  background-color: antiquewhite !important;
+  color: black;
+  aspect-ratio: 16px 9px;
+}
