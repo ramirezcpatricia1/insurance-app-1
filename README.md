@@ -1,3 +1,8 @@
+# Abstract
+
+Innovative solution for insurance managment and incident reporting.
+This repository hosts a revolutionary business solution designed to optimize information gathering and ensure secure and efficient insurance managment across a group of companies belonging to a holding, developed with React.jsx and styled with the modern CSS framework Tailwind. My goal is to provide a robust and user friendly platform that signicantly enhances insurance mangment processes 
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
