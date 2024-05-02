@@ -23,10 +23,7 @@ const Exits = () => {
     <>
       <Layout>
         <form onSubmit={onSubmit} className="ml-20 relative">
-          <h1 className="h-10 text-center">
-            {" "}
-            Exits "Equipment Outbound Form"{" "}
-          </h1>
+          <h1 className="h-10 "> Exits "Equipment Outbound Form" </h1>
           {/*<SelectEquipment />*/}
           <div className="flex flex-col">
             <label> Actual Date </label>

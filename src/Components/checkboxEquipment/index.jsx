@@ -40,14 +40,13 @@ function SelectEquipment() {
       <ul>
         {equipment.map((item, index) => (
           <li key={index}>
-            <label>
-              <input
-                type="checkbox"
-                checked={selectedItems.includes(item)}
-                onChange={(event) => handleCheckboxChange(event, item)}
-              />
-              {item.equipment}
-            </label>
+            <label></label>
+            <input
+              type="checkbox"
+              checked={selectedItems.includes(item)}
+              onChange={(event) => handleCheckboxChange(event, item)}
+            />
+            {item.equipment}
           </li>
         ))}
       </ul>

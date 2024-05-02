@@ -256,6 +256,7 @@ const Arrivals = () => {
               <option value="No">No</option>
             </select>
           </div>
+          <Button />
         </form>
       </Layout>
     </>

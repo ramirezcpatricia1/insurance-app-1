@@ -3,8 +3,16 @@ body {
 }
 label {
   display: block;
+  width: 80%;
 }
 input {
+  display: inline;
+  width: 80%;
+  -webkit-text-fill-color: black;
+  color: black;
+}
+
+textarea {
   display: inline;
   width: 80%;
   -webkit-text-fill-color: black;

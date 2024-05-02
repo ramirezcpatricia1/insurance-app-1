@@ -1,18 +1,18 @@
 import React from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+//import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Layout from "../../Components/Layout";
 import Form from "../../Components/Form";
 
-const ArEx = () => {
-  return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/arrivals" element={<MobileEquipment />} />
-        <Route path="/exits" element={<MobileEquipment />} />
-      </Routes>
-    </BrowserRouter>
-  );
-};
+//const ArEx = () => {
+//return (
+//<BrowserRouter>
+//<Routes>
+//<Route path="/arrivals" element={<MobileEquipment />} />
+//<Route path="/exits" element={<MobileEquipment />} />
+//</Routes>
+//</BrowserRouter>
+//);
+//};
 
 function MobileEquipment() {
   return (
@@ -26,7 +26,7 @@ function MobileEquipment() {
         both the incoming and outgoing equipment to complete the process
       </span>
 
-      <Form arrivals="/arrivals" exits="/exits" />
+      <Form arrivals="/arrivals" exits="/exits"></Form>
     </Layout>
   );
 }

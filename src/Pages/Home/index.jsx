@@ -5,7 +5,7 @@ import Layout from "../../Components/Layout";
 
 function Home() {
   return (
-    <div classname={styles.pag}>
+    <div className={styles.pag}>
       <Layout>
         <h1>Insurance Company Event report</h1>
         <div className={styles.firstLine}>

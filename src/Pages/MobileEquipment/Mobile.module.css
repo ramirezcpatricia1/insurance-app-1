@@ -1,0 +1,8 @@
+.sliderBox {
+  width: 1280px;
+  height: auto;
+}
+
+.slider {
+  animation: slide 20s infinite alternative ease-in-out;
+}
