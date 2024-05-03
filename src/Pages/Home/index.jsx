@@ -15,7 +15,7 @@ function Home() {
             navLink="/mobile-equipment"
           />
           <Card
-            image="./assets/incidentEquipmentMobile.jpg"
+            image="./assets/IncidentEquipmentMobile.jpg"
             title="Equipment Mobile incident"
             navLink="/incident-mobile-equipment"
           />
